@@ -1,4 +1,6 @@
 import { ReducerExample } from "./components/ReducerExample";
+import { Private } from "./components/auth/Private.tsx";
+import { Profile } from "./components/auth/Profile.tsx";
 import { Box } from './components/context/Box';
 import { ThemeContextProvider } from "./components/context/ThemeContext.tsx";
 import { User } from "./components/context/User.tsx";
@@ -16,6 +18,8 @@ const App = () => {
       <UserContextProvider>
         <User />
       </UserContextProvider>
+
+      <Private isLogedIn={ false } Component={ Profile } />
     </>
   );
 };
