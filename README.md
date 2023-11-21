@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# TypeScript React Exercises
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.4.3-blue.svg)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-17.0.2-green.svg)](https://reactjs.org/)
 
-Currently, two official plugins are available:
+This repository contains exercises for practicing TypeScript in React.js. It complements the tutorial available [here](https://www.youtube.com/watch?v=bcmes6hUO3U&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=13).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies: `npm install` or `yarn install`.
+4. Follow along with the tutorial to enhance your TypeScript and React skills.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Feel free to contribute or use it as a reference for your TypeScript and React learning journey!
